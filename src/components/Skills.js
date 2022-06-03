@@ -16,7 +16,7 @@ function Skills() {
       <div className="flex flex-wrap justify-center pt-2 relative">
 
         <div className="flex flex-col w-40 p-10 m-6 overflow-hidden   hover:bg-gray-200 shadow-2xl  rounded-xl sm:w-52 curson-pointer">
-          <a href="">
+          <a href="https://portfolio-main-iota.vercel.app/">
             <AiOutlineFundProjectionScreen
               color="#2196f3"
               className="mx-auto text-4xl"
