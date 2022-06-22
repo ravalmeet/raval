@@ -37,7 +37,7 @@ function Skills() {
           </a>
         </div> */}
         <div className="flex flex-col w-40  p-10 m-6 overflow-hidden select-none hover:bg-gray-200 bg-white shadow-2xl rounded-xl sm:w-52">
-          <a href="https://portfolio-main-iota.vercel.app/">
+          <a href="https://www.youtube.com/channel/UCYsr3jCarPijFlxpc8CfEBg">
             <AiFillYoutube color="red" className="mx-auto text-4xl" />
             <p className="mt-6 text-xl font-semibold text-center">
               Youtube Channel
@@ -54,7 +54,7 @@ function Skills() {
         </div> */}
 
         <div className="flex flex-col w-40  p-10 m-6 overflow-hidden select-none hover:bg-gray-200 bg-white shadow-2xl rounded-xl sm:w-52">
-          <a href="https://portfolio-main-iota.vercel.app/">
+          <a href="https://contact-beta.vercel.app/">
             <FaBlogger color="orange" className="mx-auto text-4xl" />
             <p className="mt-6 text-xl font-semibold text-center">
               Contact Details
