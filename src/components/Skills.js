@@ -1,7 +1,7 @@
 import React from "react";
 
 import { FaBlogger } from "react-icons/fa";
-import { AiOutlineFundProjectionScreen, AiFillYoutube } from "react-icons/ai";
+import { AiOutlineFundProjectionScreen,AiOutlineContacts, AiFillYoutube } from "react-icons/ai";
 import { RiOpenSourceLine } from "react-icons/ri";
 import { GiAchievement } from "react-icons/gi";
 
@@ -56,10 +56,18 @@ function Skills() {
           <a href="">
             <FaBlogger color="orange" className="mx-auto text-4xl" />
             <p className="mt-6 text-xl font-semibold text-center">
-              Personal Blogger
+              Contact Details
             </p>
           </a>
         </div>
+        {/* <div className="flex flex-col w-40  p-10 m-6 overflow-hidden hover:bg-gray-200 bg-white shadow-2xl rounded-xl sm:w-52">
+          <a href="">
+            <AiOutlineContacts color="black" className="mx-auto text-4xl" />
+            <p className="mt-6 text-xl font-semibold text-center">
+              Contact Details
+            </p>
+          </a>
+        </div> */}
       </div>
     </div>
   );
