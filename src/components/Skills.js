@@ -15,11 +15,12 @@ function Skills() {
 
       <div className="flex flex-wrap justify-center pt-2 relative">
 
-        <div className="flex flex-col w-40 p-10 m-6 overflow-hidden   hover:bg-gray-200 shadow-2xl  rounded-xl sm:w-52 curson-pointer">
+        <div className="flex flex-col w-40 p-10 m-6 overflow-hidden  select-none hover:bg-gray-200 shadow-2xl  rounded-xl sm:w-52 curson-pointer">
           <a href="https://portfolio-main-iota.vercel.app/">
             <AiOutlineFundProjectionScreen
               color="#2196f3"
               className="mx-auto text-4xl"
+
             />
             <p className="mt-6 text-xl font-semibold text-center">
               Personal Portfolio
@@ -35,8 +36,8 @@ function Skills() {
             </p>
           </a>
         </div> */}
-        <div className="flex flex-col w-40  p-10 m-6 overflow-hidden hover:bg-gray-200 bg-white shadow-2xl rounded-xl sm:w-52">
-          <a href="">
+        <div className="flex flex-col w-40  p-10 m-6 overflow-hidden select-none hover:bg-gray-200 bg-white shadow-2xl rounded-xl sm:w-52">
+          <a href="https://portfolio-main-iota.vercel.app/">
             <AiFillYoutube color="red" className="mx-auto text-4xl" />
             <p className="mt-6 text-xl font-semibold text-center">
               Youtube Channel
@@ -52,8 +53,8 @@ function Skills() {
           </a>
         </div> */}
 
-        <div className="flex flex-col w-40  p-10 m-6 overflow-hidden hover:bg-gray-200 bg-white shadow-2xl rounded-xl sm:w-52">
-          <a href="">
+        <div className="flex flex-col w-40  p-10 m-6 overflow-hidden select-none hover:bg-gray-200 bg-white shadow-2xl rounded-xl sm:w-52">
+          <a href="https://portfolio-main-iota.vercel.app/">
             <FaBlogger color="orange" className="mx-auto text-4xl" />
             <p className="mt-6 text-xl font-semibold text-center">
               Contact Details
