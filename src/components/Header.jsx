@@ -137,18 +137,18 @@ function Header() {
                 </div>
               </div>
             </div>
-            <div className="mr-10 flex md:hidden ">
+            {/* <div className="mr-10 flex md:hidden ">
               <butfromn
                 onClick={() => setIsOpen(!isOpen)}
                 type="butfromn"
-                className="bg-blue-600 inline-flex items-center justify-center p-2 rounded-md text-white  hover:bg-blue-900 rounded-3xl cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
+                className="bg-[#0A192F] inline-flex items-center justify-center p-2 rounded-md text-white  rounded-3xl cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
                 <span className="sr-only">Open main menu</span>
                 {!isOpen ? (
                   <svg
-                    className="block h-6 w-6"
+                    className="block h-6 w-6 bg-[#0A192F]"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -164,7 +164,7 @@ function Header() {
                   </svg>
                 ) : (
                   <svg
-                    className="block h-6 w-6"
+                    className="block h-6 w-6 bg-[#0A192F]"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -180,7 +180,7 @@ function Header() {
                   </svg>
                 )}
               </butfromn>
-            </div>
+            </div> */}
           </div>
         </div>
 
@@ -201,20 +201,21 @@ function Header() {
               >
                 <a
                   from="/"
+                  href="#about"
                   onClick={isOpen}
                   className="cursor-pointer hover:bg-blue-900 rounded-3xl cursor-pointer text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   About
                 </a>
                 <a
-                  from="/teampage"
+                  href="#skills"
                   onClick={isOpen}
                   className="cursor-pointer hover:bg-blue-900 rounded-3xl cursor-pointer text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
                   Experience
                 </a>
                 <a
-                  from="/event"
+                  href="#work"
                   onClick={isOpen}
                   className="cursor-pointer hover:bg-blue-900 rounded-3xl cursor-pointer text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
@@ -222,7 +223,7 @@ function Header() {
                   {/* <AiOutlineSearch className="mr-4    text-xl font-bold" /> */}
                 </a>
                 <a
-                  from="/event"
+                  href="#contact"
                   onClick={isOpen}
                   className="cursor-pointer hover:bg-blue-900 rounded-3xl cursor-pointer text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
@@ -239,7 +240,7 @@ function Header() {
                 </a> */}
 
                 <a
-                  href="https://discord.gg/z2KHssuw"
+                   href={resume} download="resume.pdf"
                   onClick={isOpen}
                   className=" text-center  cursor-pointer bg-gradient-from-r from-blue-500 via-blue-600 from-blue-700 text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                 >
