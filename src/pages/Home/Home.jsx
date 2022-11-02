@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import About from "../../components/About";
 import Cards from "../../components/Cards";
 import Header from "../../components/Header";
@@ -11,24 +11,48 @@ import Work from "../../components/Work";
 import Projects from "../../components/Projects";
 import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 function Home() {
+
+  useEffect(() => {
+    AOS.init({
+
+      duration : 1000
+    }
+    );
+  }, [])
+
   return (
     <div className="  bg-[#0A192F] overflow-y-hidden">
       <Header />
+      <div data-aos="fade-up" >
 
       <HeroSection />
+      </div>
 
+      <div data-aos="fade-right" >
       <About/>
+      </div>
 
+      <div data-aos="fade-right" >
       <Skills color="pink" />
+      </div>
 
+      <div data-aos="fade-right" >
       <Work />
+      </div>
 
+      <div data-aos="fade-right" >
       <Projects/>
+      </div>
 
+      <div data-aos="fade-right" >
       <Contact/>
-
+      </div>
+      
       <Footer className="pb-4"/>
 
       {/* <div

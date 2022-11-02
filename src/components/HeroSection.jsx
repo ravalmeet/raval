@@ -1,8 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function HeroSection() {
+
+ 
+
   return (
-    <div clasName="">
+    <div clasName="" >
       <section class="mb-34 pt-20   overflow-y-hidden ">
         <div class="px-6 md:px-12   text-gray-200 text-center lg:pt-36 lg:text-left">
           <div class="container mx-auto xl:px-32">
